@@ -1,0 +1,12 @@
+ppa:git-core/ppa
+ppa:libreoffice/ppa
+ppa:webupd8team/java
+ppa:webupd8team/brackets
+ppa:webupd8team/sublime-text-3
+ppa:webupd8team/y-ppa-manager
+ppa:webupd8team/atom
+ppa:atareao/atareao
+ppa:nilarimogard/webupd8
+ppa:gnome-terminator
+ppa:thefanclub/grive-tools
+

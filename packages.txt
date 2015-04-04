@@ -1,0 +1,67 @@
+############ Extras ############
+curl
+wget
+tree
+tmux
+atool
+htop
+ack-grep
+wmctrl
+xdotool
+vim-gtk
+alarm-clock-applet
+clipit
+meld
+shutter
+############ FTP ############
+filezilla
+############ DataBase ############
+mysql-server
+adminer
+############ DEV ############
+arduino
+zsh
+git
+gitk
+gitg
+maven3
+openvpn
+############ VM ############
+virtualbox
+############ Java ############
+oracle-java8-installer
+oracle-java8-set-default
+############ Office ############
+gcolor2
+gufw
+safe-rm
+synaptic
+libreoffice
+############ Talk & Alerts ############
+skype
+calendar-indicator
+pidgin
+pidgin-indicator
+############ Browser ############
+chromium-browser
+firefox
+google-chrome-stable
+############ Audio ############
+ubuntu-restricted-addons
+ubuntu-restricted-extras
+mplayer
+mpg123
+audacity
+soundconverter
+############ Compact ############
+rar
+unrar
+############ Text Editor ############
+remarkable
+terminator
+brackets
+sublime-text-installer
+atom
+############ Cloud Driver ############
+nautilus-dropbox
+grive-tools
