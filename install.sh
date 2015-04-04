@@ -1,33 +1,26 @@
 #!/bin/bash -e
 
-echo "#### Adding PPAs"
-##while read ppa; do
-##sudo add-apt-repository $ppa
-##done < ppas.txt
+echo "▶ Adding PPAs ◀"
+while read ppa; do
+	sudo add-apt-repository $ppa
+done < ppas.txt
 
-echo "#### Installing packages"
-#sudo apt-get update
-#declare -a packages
-#readarray packages < packages.txt
-#sudo apt-get install ${packages[*]}
-#echo ${packages[*]}
-
+echo "▶ Installing packages ◀"
 while read package; do
 	case $package in
 	*#* ) echo $package ;;
-	* ) echo "opa " $package ;;
+	* ) sudo apt-get install $package -y;;
 	esac
-	#sudo apt-get install $package -y
 done < packages.txt
 
+echo "▶ Commands ◀"
+while read cmd; do
+	sudo $cmd
+done < commands.txt
 
-
-echo "#### Configure grub to use console mode"
+echo "▶ Configure grub to use console mode ◀"
 #sudo patch -p0 < grub-config.patch
 #sudo update-grub
 
-echo "#### Configure default Java"
-#sudo update-java-alternatives -s java-8-oracle
-
-echo "#### Now, you should run these parts manually:"
+echo "▶ Parts manually ◀"
 #cat manual.txt
