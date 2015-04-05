@@ -18,9 +18,8 @@ while read cmd; do
 	sudo $cmd
 done < commands.txt
 
-echo "▶ Configure grub to use console mode ◀"
-#sudo patch -p0 < grub-config.patch
-#sudo update-grub
+echo "▶ Theme & Icons ◀"
+sudo sh theme.txt
 
 echo "▶ Parts manually ◀"
 #cat manual.txt

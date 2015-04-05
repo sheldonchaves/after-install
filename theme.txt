@@ -1,0 +1,8 @@
+#!/bin/bash -e
+
+add-apt-repository ppa:noobslab/themes -y
+
+apt-get update 
+
+apt-get install hackstation-theme -y
+

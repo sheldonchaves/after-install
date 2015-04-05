@@ -65,3 +65,5 @@ atom
 ############ Cloud Driver ############
 nautilus-dropbox
 grive-tools
+############ System ############
+conky
