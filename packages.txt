@@ -9,7 +9,6 @@ ack-grep
 wmctrl
 xdotool
 vim-gtk
-alarm-clock-applet
 clipit
 meld
 shutter
@@ -24,14 +23,13 @@ zsh
 git
 gitk
 gitg
-maven3
 openvpn
 ############ VM ############
 virtualbox
 ############ Java ############
-oracle-java8-installer
-oracle-java8-set-default
-############ Office ############
+openjdk-7-jdk
+openjdk-8-jdk
+############ Office e util ############
 gcolor2
 gufw
 safe-rm

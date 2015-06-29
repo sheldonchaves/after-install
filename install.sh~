@@ -19,7 +19,7 @@ while read cmd; do
 done < commands.txt
 
 echo "▶ Theme & Icons ◀"
-#sudo sh theme.txt
+sudo sh theme.txt
 
 echo "▶ Parts manually ◀"
 #cat manual.txt
